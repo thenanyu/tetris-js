@@ -1,0 +1,36 @@
+<html>
+
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../lib/tetris.js"></script>
+    <style>
+    </style>
+  </head>
+
+  <body>
+
+    <div id="demo-area">
+      This is the demo area; the contents will be replaced by the game.
+    </div>
+
+    <script>
+      $('#demo-area').tetris({
+        'colors': {
+          'I': 'cyan',
+          'O': 'yellow',
+          'T': 'purple',
+          'S': 'green',
+          'Z': 'red',
+          'J': 'blue',
+          'L': 'orange',
+          'background': 'black',
+          'border'    : 'gray'
+        },
+        'width'   : 10,
+        'height'  : 20,
+        'cellSize': 20
+      });
+    </script>
+  </body>
+
+</html>
