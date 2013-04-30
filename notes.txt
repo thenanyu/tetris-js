@@ -1,0 +1,24 @@
+x show the board
+- show Tetrominos
+- move tetroms with keyboard input
+- collision detection
+- generate new tetrom
+- explode rows
+
+- rotate tetroms with keyboard input
+- increment board position with time step
+- track score
+- increase level at score threshold
+- show next tetrom at the top
+- lose the game when you hit the top
+- play again after death
+- music
+- ideal stickiness on pieces
+- intro screen
+
+
+
+
+
+
+- dynamically size the board
