@@ -10,10 +10,10 @@ x explode rows if line
   x look at all the rows that the current tetrom occupies
   xx if a row has all occupied cells
   xxx clear the row
-  --- shift all the coords down 1 of eveything above it
+  xxx shift all the coords down 1 of eveything above it
 
-- increment board position with time step
-- freeze tetromino when at bottom and timeout for increment
+x increment board position with time step
+x freeze tetromino when at bottom and time runs out
 
 - rotate tetroms with keyboard input
 - lose the game when you hit the top
