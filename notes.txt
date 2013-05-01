@@ -3,16 +3,19 @@ x show Tetrominos
 x move tetroms with keyboard input
 x collision detection for border
 x collision detection for other pieces
-x freeze tetromino
+x freeze tetromino at bottom
 x generate new tetrom
 
-- explode rows if line
-  - look at all the rows
-  -- if a row has all occupied cells
-  --- clear the row, shift all the coords down 1 of eveything above it
+x explode rows if line
+  x look at all the rows that the current tetrom occupies
+  xx if a row has all occupied cells
+  xxx clear the row
+  --- shift all the coords down 1 of eveything above it
+
+- increment board position with time step
+- freeze tetromino when at bottom and timeout for increment
 
 - rotate tetroms with keyboard input
-- increment board position with time step
 - lose the game when you hit the top
 - ideal stickiness on pieces
 
