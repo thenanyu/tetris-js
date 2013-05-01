@@ -1,9 +1,11 @@
 x show the board
-- show Tetrominos
-- move tetroms with keyboard input
-- collision detection
+x show Tetrominos
+x move tetroms with keyboard input
+x collision detection for border
+x collision detection for other pieces
+- freeze tetromino
 - generate new tetrom
-- explode rows
+- explode rows if line
 
 - rotate tetroms with keyboard input
 - increment board position with time step
